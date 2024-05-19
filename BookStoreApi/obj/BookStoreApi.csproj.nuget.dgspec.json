@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vivia\\DRWA\\BookStoreApi\\BookStoreApi.csproj": {}
+    "c:\\Users\\vivia\\DRWA\\BookStoreApi\\BookStoreApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vivia\\DRWA\\BookStoreApi\\BookStoreApi.csproj": {
+    "c:\\Users\\vivia\\DRWA\\BookStoreApi\\BookStoreApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vivia\\DRWA\\BookStoreApi\\BookStoreApi.csproj",
+        "projectUniqueName": "c:\\Users\\vivia\\DRWA\\BookStoreApi\\BookStoreApi.csproj",
         "projectName": "BookStoreApi",
-        "projectPath": "C:\\Users\\vivia\\DRWA\\BookStoreApi\\BookStoreApi.csproj",
+        "projectPath": "c:\\Users\\vivia\\DRWA\\BookStoreApi\\BookStoreApi.csproj",
         "packagesPath": "C:\\Users\\vivia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vivia\\DRWA\\BookStoreApi\\obj\\",
+        "outputPath": "c:\\Users\\vivia\\DRWA\\BookStoreApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vivia\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.4, )"
@@ -75,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
